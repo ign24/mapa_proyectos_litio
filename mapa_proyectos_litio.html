@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0fd976f7055808d6b4639242f1f41667 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0fd976f7055808d6b4639242f1f41667" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0fd976f7055808d6b4639242f1f41667 = L.map(
+                "map_0fd976f7055808d6b4639242f1f41667",
+                {
+                    center: [-26.0, -65.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1f5e5bb3631a0213740e6088c8917292 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_0fd976f7055808d6b4639242f1f41667);
+        
+    
+            var marker_cluster_b9296bff51313f9937917e539bf37fd7 = L.markerClusterGroup(
+                {}
+            );
+            map_0fd976f7055808d6b4639242f1f41667.addLayer(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var marker_f80c5e9710f310970b223686b1d180bd = L.marker(
+                [-28.77164, -65.54279],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_f886569808fa754f47a55c9ae1b60589 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f80c5e9710f310970b223686b1d180bd.setIcon(icon_f886569808fa754f47a55c9ae1b60589);
+        
+    
+        var popup_7fc1aff1882bf3e689e43630370bf1ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3705c8ece89243d854f13e743e10881 = $(`<div id="html_b3705c8ece89243d854f13e743e10881" style="width: 100.0%; height: 100.0%;"><b>ANCASTI</b><br>Provincia: CATAMARCA<br>Estado: Exploración Avanzada</div>`)[0];
+            popup_7fc1aff1882bf3e689e43630370bf1ac.setContent(html_b3705c8ece89243d854f13e743e10881);
+        
+
+        marker_f80c5e9710f310970b223686b1d180bd.bindPopup(popup_7fc1aff1882bf3e689e43630370bf1ac)
+        ;
+
+        
+    
+    
+            var marker_7b8fb75f03092809ba5c18ab2df7e6b5 = L.marker(
+                [-25.62753, -67.83714],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_8173f3a8a027738bddf28c7b0bd210bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7b8fb75f03092809ba5c18ab2df7e6b5.setIcon(icon_8173f3a8a027738bddf28c7b0bd210bd);
+        
+    
+        var popup_65b8a4a079b827910cb6da93106aed93 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dca48f008cd58cd40a870a87ebae77d6 = $(`<div id="html_dca48f008cd58cd40a870a87ebae77d6" style="width: 100.0%; height: 100.0%;"><b>ANTOFALLA NORTE</b><br>Provincia: CATAMARCA<br>Estado: Exploración Avanzada</div>`)[0];
+            popup_65b8a4a079b827910cb6da93106aed93.setContent(html_dca48f008cd58cd40a870a87ebae77d6);
+        
+
+        marker_7b8fb75f03092809ba5c18ab2df7e6b5.bindPopup(popup_65b8a4a079b827910cb6da93106aed93)
+        ;
+
+        
+    
+    
+            var marker_5c8ad0aed53d2ef2ce236637e3a6e90c = L.marker(
+                [-24.78233, -67.74604],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_b02708b7bea9ebda494a52d5d7e15f99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5c8ad0aed53d2ef2ce236637e3a6e90c.setIcon(icon_b02708b7bea9ebda494a52d5d7e15f99);
+        
+    
+        var popup_d9e05e16c77e8df175a5d8b0ac38a75a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c69724757b9c02c7884f6e371df9227b = $(`<div id="html_c69724757b9c02c7884f6e371df9227b" style="width: 100.0%; height: 100.0%;"><b>ARIZARO</b><br>Provincia: SALTA<br>Estado: Exploración Avanzada</div>`)[0];
+            popup_d9e05e16c77e8df175a5d8b0ac38a75a.setContent(html_c69724757b9c02c7884f6e371df9227b);
+        
+
+        marker_5c8ad0aed53d2ef2ce236637e3a6e90c.bindPopup(popup_d9e05e16c77e8df175a5d8b0ac38a75a)
+        ;
+
+        
+    
+    
+            var marker_13934745c5e42987ca978e1c05448ec4 = L.marker(
+                [-25.47594, -67.14368],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_17950383d2886cf7e5957ccbd8bc3373 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_13934745c5e42987ca978e1c05448ec4.setIcon(icon_17950383d2886cf7e5957ccbd8bc3373);
+        
+    
+        var popup_7086875740a806e5d3e1086a8c249f76 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_875de7ea39dd9a0575d66dff16f250be = $(`<div id="html_875de7ea39dd9a0575d66dff16f250be" style="width: 100.0%; height: 100.0%;"><b>CANDELAS</b><br>Provincia: CATAMARCA<br>Estado: Evaluación económica preliminar</div>`)[0];
+            popup_7086875740a806e5d3e1086a8c249f76.setContent(html_875de7ea39dd9a0575d66dff16f250be);
+        
+
+        marker_13934745c5e42987ca978e1c05448ec4.bindPopup(popup_7086875740a806e5d3e1086a8c249f76)
+        ;
+
+        
+    
+    
+            var marker_3c1aba990c19f5cf825fea05b05b412d = L.marker(
+                [-23.72524, -66.81108],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_cb875420907beeff8a05843f94ed8432 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_3c1aba990c19f5cf825fea05b05b412d.setIcon(icon_cb875420907beeff8a05843f94ed8432);
+        
+    
+        var popup_1fc3dcdb2d512db34052f91752b359a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4931a801618c4a985490c2088c5061ca = $(`<div id="html_4931a801618c4a985490c2088c5061ca" style="width: 100.0%; height: 100.0%;"><b>CAUCHARI</b><br>Provincia: JUJUY<br>Estado: Prefactibilidad</div>`)[0];
+            popup_1fc3dcdb2d512db34052f91752b359a6.setContent(html_4931a801618c4a985490c2088c5061ca);
+        
+
+        marker_3c1aba990c19f5cf825fea05b05b412d.bindPopup(popup_1fc3dcdb2d512db34052f91752b359a6)
+        ;
+
+        
+    
+    
+            var marker_17cbb9beecac25afa9b0aa934aa20ebe = L.marker(
+                [-23.41623, -66.71316],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_15894236c315ddad4720bc519beca5bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_17cbb9beecac25afa9b0aa934aa20ebe.setIcon(icon_15894236c315ddad4720bc519beca5bf);
+        
+    
+        var popup_d8f7c9ed712b5eeed7117d8865146d9a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3232ab10a466cae7b48b8072182dded = $(`<div id="html_c3232ab10a466cae7b48b8072182dded" style="width: 100.0%; height: 100.0%;"><b>CAUCHARI-OLAROZ</b><br>Provincia: JUJUY<br>Estado: Construcción</div>`)[0];
+            popup_d8f7c9ed712b5eeed7117d8865146d9a.setContent(html_c3232ab10a466cae7b48b8072182dded);
+        
+
+        marker_17cbb9beecac25afa9b0aa934aa20ebe.bindPopup(popup_d8f7c9ed712b5eeed7117d8865146d9a)
+        ;
+
+        
+    
+    
+            var marker_a3b95c72d17c0fe23f32a3c466a85155 = L.marker(
+                [-25.09077, -66.81628],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_c6c5d1a487a4c717c7687f85afda7cf4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a3b95c72d17c0fe23f32a3c466a85155.setIcon(icon_c6c5d1a487a4c717c7687f85afda7cf4);
+        
+    
+        var popup_101f990a445dc0683d9d7a0fb745a1c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6cfcc7f8e1de58e4a826660c5a9114f1 = $(`<div id="html_6cfcc7f8e1de58e4a826660c5a9114f1" style="width: 100.0%; height: 100.0%;"><b>CENTENARIO-RATONES</b><br>Provincia: SALTA<br>Estado: Construcción</div>`)[0];
+            popup_101f990a445dc0683d9d7a0fb745a1c5.setContent(html_6cfcc7f8e1de58e4a826660c5a9114f1);
+        
+
+        marker_a3b95c72d17c0fe23f32a3c466a85155.bindPopup(popup_101f990a445dc0683d9d7a0fb745a1c5)
+        ;
+
+        
+    
+    
+            var marker_555c63425de4c5e242c0ba4f1b01b3db = L.marker(
+                [-25.3927, -67.04878],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_a7a9d940dde93be5c4f312aaea02f53c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_555c63425de4c5e242c0ba4f1b01b3db.setIcon(icon_a7a9d940dde93be5c4f312aaea02f53c);
+        
+    
+        var popup_04bd9780e3b5c31fb622d08051f90b32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4e30e0b2d05c521ffeaed9691ebc884 = $(`<div id="html_a4e30e0b2d05c521ffeaed9691ebc884" style="width: 100.0%; height: 100.0%;"><b>FENIX</b><br>Provincia: CATAMARCA<br>Estado: Producción</div>`)[0];
+            popup_04bd9780e3b5c31fb622d08051f90b32.setContent(html_a4e30e0b2d05c521ffeaed9691ebc884);
+        
+
+        marker_555c63425de4c5e242c0ba4f1b01b3db.bindPopup(popup_04bd9780e3b5c31fb622d08051f90b32)
+        ;
+
+        
+    
+    
+            var marker_61d2677ffd7126cfdf5d48f6a4360f11 = L.marker(
+                [-25.03, -67.01],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_95c857de7416f0b0402a6567ee874034 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_61d2677ffd7126cfdf5d48f6a4360f11.setIcon(icon_95c857de7416f0b0402a6567ee874034);
+        
+    
+        var popup_a2aef33d9ae2aa261313031c4915db54 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a64c52c2608195cbc6d5675681849621 = $(`<div id="html_a64c52c2608195cbc6d5675681849621" style="width: 100.0%; height: 100.0%;"><b>GALLEGO</b><br>Provincia: SALTA<br>Estado: Exploración Avanzada</div>`)[0];
+            popup_a2aef33d9ae2aa261313031c4915db54.setContent(html_a64c52c2608195cbc6d5675681849621);
+        
+
+        marker_61d2677ffd7126cfdf5d48f6a4360f11.bindPopup(popup_a2aef33d9ae2aa261313031c4915db54)
+        ;
+
+        
+    
+    
+            var marker_7d3fdb473e7c0d2407eb096315f5369d = L.marker(
+                [-25.22556, -66.98187],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_d02a4101344fb7c427addef41ea934e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_7d3fdb473e7c0d2407eb096315f5369d.setIcon(icon_d02a4101344fb7c427addef41ea934e8);
+        
+    
+        var popup_5a6dc7d764989dd121dee713d6a3391c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85f72d149a39608ab904bfb205468c9c = $(`<div id="html_85f72d149a39608ab904bfb205468c9c" style="width: 100.0%; height: 100.0%;"><b>HOMBRE MUERTO NORTE</b><br>Provincia: SALTA<br>Estado: Evaluación económica preliminar</div>`)[0];
+            popup_5a6dc7d764989dd121dee713d6a3391c.setContent(html_85f72d149a39608ab904bfb205468c9c);
+        
+
+        marker_7d3fdb473e7c0d2407eb096315f5369d.bindPopup(popup_5a6dc7d764989dd121dee713d6a3391c)
+        ;
+
+        
+    
+    
+            var marker_fae676fa1b917e8e4e3ed4268aa1de7e = L.marker(
+                [-25.41, -67.24501],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_5667c58f5412d441ffb1183a1db3c1df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_fae676fa1b917e8e4e3ed4268aa1de7e.setIcon(icon_5667c58f5412d441ffb1183a1db3c1df);
+        
+    
+        var popup_b935e52e8308a441ad8e4cb3c49496f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58b097190f878f916497f3341cec372f = $(`<div id="html_58b097190f878f916497f3341cec372f" style="width: 100.0%; height: 100.0%;"><b>HOMBRE MUERTO OESTE</b><br>Provincia: CATAMARCA<br>Estado: Evaluación económica preliminar</div>`)[0];
+            popup_b935e52e8308a441ad8e4cb3c49496f2.setContent(html_58b097190f878f916497f3341cec372f);
+        
+
+        marker_fae676fa1b917e8e4e3ed4268aa1de7e.bindPopup(popup_b935e52e8308a441ad8e4cb3c49496f2)
+        ;
+
+        
+    
+    
+            var marker_26a6a6acff4705d2678996523240b850 = L.marker(
+                [-26.35584, -67.64756],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_e5880f55778f7e667553befba83a0a8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_26a6a6acff4705d2678996523240b850.setIcon(icon_e5880f55778f7e667553befba83a0a8c);
+        
+    
+        var popup_94edc94ecdae66f3cef92aff26f4f713 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a97f6e15b9fd15f311347557d3705a81 = $(`<div id="html_a97f6e15b9fd15f311347557d3705a81" style="width: 100.0%; height: 100.0%;"><b>INCAHUASI</b><br>Provincia: CATAMARCA<br>Estado: Exploración Avanzada</div>`)[0];
+            popup_94edc94ecdae66f3cef92aff26f4f713.setContent(html_a97f6e15b9fd15f311347557d3705a81);
+        
+
+        marker_26a6a6acff4705d2678996523240b850.bindPopup(popup_94edc94ecdae66f3cef92aff26f4f713)
+        ;
+
+        
+    
+    
+            var marker_f5e34e490d29c81bd723aacdb65d3089 = L.marker(
+                [-26.49883, -67.42899],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_dedbc7880fbf1479677fd0b9de5e5791 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_f5e34e490d29c81bd723aacdb65d3089.setIcon(icon_dedbc7880fbf1479677fd0b9de5e5791);
+        
+    
+        var popup_ae8df4525eeed2796c2c821c93c5546c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0161777fd5a69035afffb8a672aaefe9 = $(`<div id="html_0161777fd5a69035afffb8a672aaefe9" style="width: 100.0%; height: 100.0%;"><b>KACHI</b><br>Provincia: CATAMARCA<br>Estado: Prefactibilidad</div>`)[0];
+            popup_ae8df4525eeed2796c2c821c93c5546c.setContent(html_0161777fd5a69035afffb8a672aaefe9);
+        
+
+        marker_f5e34e490d29c81bd723aacdb65d3089.bindPopup(popup_ae8df4525eeed2796c2c821c93c5546c)
+        ;
+
+        
+    
+    
+            var marker_3d7fdf22c5fbc68f5bf9a7e417970c64 = L.marker(
+                [-26.37811, -67.44595],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_d8e14d16bcaf9e873542bb9064fc3592 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3d7fdf22c5fbc68f5bf9a7e417970c64.setIcon(icon_d8e14d16bcaf9e873542bb9064fc3592);
+        
+    
+        var popup_3eeee5a6fcb36db3433e4ddd0bf6cdb3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39fc8517df97b2596bcaeca31f05ec4c = $(`<div id="html_39fc8517df97b2596bcaeca31f05ec4c" style="width: 100.0%; height: 100.0%;"><b>KARACHI SALAR ESCONDIDO</b><br>Provincia: CATAMARCA<br>Estado: Exploración Avanzada</div>`)[0];
+            popup_3eeee5a6fcb36db3433e4ddd0bf6cdb3.setContent(html_39fc8517df97b2596bcaeca31f05ec4c);
+        
+
+        marker_3d7fdf22c5fbc68f5bf9a7e417970c64.bindPopup(popup_3eeee5a6fcb36db3433e4ddd0bf6cdb3)
+        ;
+
+        
+    
+    
+            var marker_b0f5fb5255b7951d8ef205f10f44a81a = L.marker(
+                [-25.35885, -67.4804],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_41155045d648edd9a9afbc00cb6b0212 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b0f5fb5255b7951d8ef205f10f44a81a.setIcon(icon_41155045d648edd9a9afbc00cb6b0212);
+        
+    
+        var popup_1532061914bba1d9666c6c3e67c27a24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_243411231e00d5a2ca8e407311eff1a0 = $(`<div id="html_243411231e00d5a2ca8e407311eff1a0" style="width: 100.0%; height: 100.0%;"><b>LAGUNA VERDE (La Borita)</b><br>Provincia: CATAMARCA<br>Estado: Exploración Avanzada</div>`)[0];
+            popup_1532061914bba1d9666c6c3e67c27a24.setContent(html_243411231e00d5a2ca8e407311eff1a0);
+        
+
+        marker_b0f5fb5255b7951d8ef205f10f44a81a.bindPopup(popup_1532061914bba1d9666c6c3e67c27a24)
+        ;
+
+        
+    
+    
+            var marker_9bfa7d2204a4f060e52c7fc9fb0e1a2b = L.marker(
+                [-28.8519, -69.14489],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_4253cb07e2d5edf3681ec7a31454ebb0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9bfa7d2204a4f060e52c7fc9fb0e1a2b.setIcon(icon_4253cb07e2d5edf3681ec7a31454ebb0);
+        
+    
+        var popup_468a9350cf879f360acabde84366a2d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_722811f095b8ba32fa10ced2f2a17230 = $(`<div id="html_722811f095b8ba32fa10ced2f2a17230" style="width: 100.0%; height: 100.0%;"><b>LOS SAPITOS</b><br>Provincia: SAN JUAN<br>Estado: Exploración Avanzada</div>`)[0];
+            popup_468a9350cf879f360acabde84366a2d6.setContent(html_722811f095b8ba32fa10ced2f2a17230);
+        
+
+        marker_9bfa7d2204a4f060e52c7fc9fb0e1a2b.bindPopup(popup_468a9350cf879f360acabde84366a2d6)
+        ;
+
+        
+    
+    
+            var marker_97f973e80a3bce836742d161a89a3c15 = L.marker(
+                [-24.81373, -68.30736],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_1663f403324a0ebad4dac451010d672f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_97f973e80a3bce836742d161a89a3c15.setIcon(icon_1663f403324a0ebad4dac451010d672f);
+        
+    
+        var popup_c0dfad609b1eb898d4a0c0a720e6837a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8359764866439f105df6288c432a0f79 = $(`<div id="html_8359764866439f105df6288c432a0f79" style="width: 100.0%; height: 100.0%;"><b>MARIANA</b><br>Provincia: SALTA<br>Estado: Construcción</div>`)[0];
+            popup_c0dfad609b1eb898d4a0c0a720e6837a.setContent(html_8359764866439f105df6288c432a0f79);
+        
+
+        marker_97f973e80a3bce836742d161a89a3c15.bindPopup(popup_c0dfad609b1eb898d4a0c0a720e6837a)
+        ;
+
+        
+    
+    
+            var marker_5cf7b1ff2af7c16bbc3b7b6d173c4796 = L.marker(
+                [-24.23533, -67.51665],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_56d0919c33b1508302c2fb54956fa27e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5cf7b1ff2af7c16bbc3b7b6d173c4796.setIcon(icon_56d0919c33b1508302c2fb54956fa27e);
+        
+    
+        var popup_e553431bd2cf17204b285bf880b554b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8efd8135204e5d2f732e2b3f7110654b = $(`<div id="html_8efd8135204e5d2f732e2b3f7110654b" style="width: 100.0%; height: 100.0%;"><b>MINA SISIFO - MINA PATILLA</b><br>Provincia: SALTA<br>Estado: Exploración Avanzada</div>`)[0];
+            popup_e553431bd2cf17204b285bf880b554b3.setContent(html_8efd8135204e5d2f732e2b3f7110654b);
+        
+
+        marker_5cf7b1ff2af7c16bbc3b7b6d173c4796.bindPopup(popup_e553431bd2cf17204b285bf880b554b3)
+        ;
+
+        
+    
+    
+            var marker_c1ef3056860d0a948998187393316e83 = L.marker(
+                [-24.57086, -66.70459],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_a6d8bc0321fd367a2cc9be003ed0a9a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_c1ef3056860d0a948998187393316e83.setIcon(icon_a6d8bc0321fd367a2cc9be003ed0a9a9);
+        
+    
+        var popup_6a88e15a322c96e96c3b757796112ac1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b0398abb73ccf66b6afd11c76837927 = $(`<div id="html_6b0398abb73ccf66b6afd11c76837927" style="width: 100.0%; height: 100.0%;"><b>PASTOS GRANDES</b><br>Provincia: SALTA<br>Estado: Factibilidad</div>`)[0];
+            popup_6a88e15a322c96e96c3b757796112ac1.setContent(html_6b0398abb73ccf66b6afd11c76837927);
+        
+
+        marker_c1ef3056860d0a948998187393316e83.bindPopup(popup_6a88e15a322c96e96c3b757796112ac1)
+        ;
+
+        
+    
+    
+            var marker_1e626685c9b14dae889ab4554f0f2f00 = L.marker(
+                [-24.69897, -66.81781],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_1480abd9d8d8fa0176aa367c8fce73ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_1e626685c9b14dae889ab4554f0f2f00.setIcon(icon_1480abd9d8d8fa0176aa367c8fce73ad);
+        
+    
+        var popup_5d56c303a85193814d5227f02539fa52 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c66a06aa515a4fc00489fc78406f68a1 = $(`<div id="html_c66a06aa515a4fc00489fc78406f68a1" style="width: 100.0%; height: 100.0%;"><b>POZUELOS (PPG)</b><br>Provincia: SALTA<br>Estado: Evaluación económica preliminar</div>`)[0];
+            popup_5d56c303a85193814d5227f02539fa52.setContent(html_c66a06aa515a4fc00489fc78406f68a1);
+        
+
+        marker_1e626685c9b14dae889ab4554f0f2f00.bindPopup(popup_5d56c303a85193814d5227f02539fa52)
+        ;
+
+        
+    
+    
+            var marker_bd8df7e3ce7305ae6b85213170935e24 = L.marker(
+                [-24.40107, -67.08351],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_e85d7ac969685646fcc74011a962b5d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bd8df7e3ce7305ae6b85213170935e24.setIcon(icon_e85d7ac969685646fcc74011a962b5d7);
+        
+    
+        var popup_afba2a478cf357a64d50b72c9e80a78e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b52d35954250c562545da8053397c35b = $(`<div id="html_b52d35954250c562545da8053397c35b" style="width: 100.0%; height: 100.0%;"><b>PULAR (Salta Lithium)</b><br>Provincia: SALTA<br>Estado: Exploración Avanzada</div>`)[0];
+            popup_afba2a478cf357a64d50b72c9e80a78e.setContent(html_b52d35954250c562545da8053397c35b);
+        
+
+        marker_bd8df7e3ce7305ae6b85213170935e24.bindPopup(popup_afba2a478cf357a64d50b72c9e80a78e)
+        ;
+
+        
+    
+    
+            var marker_eff474a42e822c7c1f34f9be5e14b9d4 = L.marker(
+                [-24.20374, -66.99009],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_5160c9dc4e99de33cb0e9586afa8074c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_eff474a42e822c7c1f34f9be5e14b9d4.setIcon(icon_5160c9dc4e99de33cb0e9586afa8074c);
+        
+    
+        var popup_d4ae6f889f1e2f6cbf18883c613e7cf3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93b52541251ea0edcb83d618825ce57d = $(`<div id="html_93b52541251ea0edcb83d618825ce57d" style="width: 100.0%; height: 100.0%;"><b>RINCÓN</b><br>Provincia: SALTA<br>Estado: Evaluación económica preliminar</div>`)[0];
+            popup_d4ae6f889f1e2f6cbf18883c613e7cf3.setContent(html_93b52541251ea0edcb83d618825ce57d);
+        
+
+        marker_eff474a42e822c7c1f34f9be5e14b9d4.bindPopup(popup_d4ae6f889f1e2f6cbf18883c613e7cf3)
+        ;
+
+        
+    
+    
+            var marker_c56ec4ace225836a325e374b9a26397b = L.marker(
+                [-25.00605, -68.14443],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_7a801d7fb15f0ce59a3874609950ab2d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c56ec4ace225836a325e374b9a26397b.setIcon(icon_7a801d7fb15f0ce59a3874609950ab2d);
+        
+    
+        var popup_63e2ab6b0cf7848bb0e8046472555ebf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4fe05745e1105167cec3835242cfdc0 = $(`<div id="html_a4fe05745e1105167cec3835242cfdc0" style="width: 100.0%; height: 100.0%;"><b>RÍO GRANDE</b><br>Provincia: SALTA<br>Estado: Exploración Avanzada</div>`)[0];
+            popup_63e2ab6b0cf7848bb0e8046472555ebf.setContent(html_a4fe05745e1105167cec3835242cfdc0);
+        
+
+        marker_c56ec4ace225836a325e374b9a26397b.bindPopup(popup_63e2ab6b0cf7848bb0e8046472555ebf)
+        ;
+
+        
+    
+    
+            var marker_a8ce18f3077396607146ee21fdd119be = L.marker(
+                [-25.24472, -66.74833],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_fb08083c3e4fe3e2ca43b99ab937536e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a8ce18f3077396607146ee21fdd119be.setIcon(icon_fb08083c3e4fe3e2ca43b99ab937536e);
+        
+    
+        var popup_d748477a48cec2ae3ceea829ce6b1c14 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_487c50597eeaece5e23b568d0f8b11c9 = $(`<div id="html_487c50597eeaece5e23b568d0f8b11c9" style="width: 100.0%; height: 100.0%;"><b>SAL DE LA PUNA</b><br>Provincia: SALTA<br>Estado: Exploración Avanzada</div>`)[0];
+            popup_d748477a48cec2ae3ceea829ce6b1c14.setContent(html_487c50597eeaece5e23b568d0f8b11c9);
+        
+
+        marker_a8ce18f3077396607146ee21fdd119be.bindPopup(popup_d748477a48cec2ae3ceea829ce6b1c14)
+        ;
+
+        
+    
+    
+            var marker_402563582e1bf793f36b2ebbaf519782 = L.marker(
+                [-25.24472, -66.74833],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_b7c3056f6d5a6c62c52175832b179a70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_402563582e1bf793f36b2ebbaf519782.setIcon(icon_b7c3056f6d5a6c62c52175832b179a70);
+        
+    
+        var popup_72a6bd2c66c1d14bb6c315c78e25c475 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f91b42643ae8c06b7fb28bff04369df = $(`<div id="html_0f91b42643ae8c06b7fb28bff04369df" style="width: 100.0%; height: 100.0%;"><b>SAL DE LOS ÁNGELES</b><br>Provincia: SALTA<br>Estado: Exploración Avanzada</div>`)[0];
+            popup_72a6bd2c66c1d14bb6c315c78e25c475.setContent(html_0f91b42643ae8c06b7fb28bff04369df);
+        
+
+        marker_402563582e1bf793f36b2ebbaf519782.bindPopup(popup_72a6bd2c66c1d14bb6c315c78e25c475)
+        ;
+
+        
+    
+    
+            var marker_7b8c1006c27d88cd9d9b36df29f0d281 = L.marker(
+                [-25.22426, -66.96852],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_de6ff03238af808bc6a82a9a37c57a3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_7b8c1006c27d88cd9d9b36df29f0d281.setIcon(icon_de6ff03238af808bc6a82a9a37c57a3c);
+        
+    
+        var popup_fd2dc65fdd556de92b079324d06364ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13382b7354481db92daa31582e7934ea = $(`<div id="html_13382b7354481db92daa31582e7934ea" style="width: 100.0%; height: 100.0%;"><b>SAL DE ORO</b><br>Provincia: CATAMARCA - SALTA<br>Estado: Construcción</div>`)[0];
+            popup_fd2dc65fdd556de92b079324d06364ca.setContent(html_13382b7354481db92daa31582e7934ea);
+        
+
+        marker_7b8c1006c27d88cd9d9b36df29f0d281.bindPopup(popup_fd2dc65fdd556de92b079324d06364ca)
+        ;
+
+        
+    
+    
+            var marker_6a5ce6f328a9efa4b2845a641a9bc3ee = L.marker(
+                [-25.34532, -66.94715],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_f8d4d24575bc3b11371b1d8e19ccee23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_6a5ce6f328a9efa4b2845a641a9bc3ee.setIcon(icon_f8d4d24575bc3b11371b1d8e19ccee23);
+        
+    
+        var popup_8492349fc5439121f47f429c90915a40 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1abc50a34f7b3d7db9d3fc5dc91e51cf = $(`<div id="html_1abc50a34f7b3d7db9d3fc5dc91e51cf" style="width: 100.0%; height: 100.0%;"><b>SAL DE VIDA</b><br>Provincia: CATAMARCA<br>Estado: Construcción</div>`)[0];
+            popup_8492349fc5439121f47f429c90915a40.setContent(html_1abc50a34f7b3d7db9d3fc5dc91e51cf);
+        
+
+        marker_6a5ce6f328a9efa4b2845a641a9bc3ee.bindPopup(popup_8492349fc5439121f47f429c90915a40)
+        ;
+
+        
+    
+    
+            var marker_1520d3063f592dbbd4eb141691223ce7 = L.marker(
+                [-25.86667, -67.85],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_34933154188c80c2143d2f5a858db3d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1520d3063f592dbbd4eb141691223ce7.setIcon(icon_34933154188c80c2143d2f5a858db3d7);
+        
+    
+        var popup_de18f6ef950a8d7682b1a31fd78ce8b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d1d19092dec433391f4ad819feda69d = $(`<div id="html_1d1d19092dec433391f4ad819feda69d" style="width: 100.0%; height: 100.0%;"><b>SALAR DE ANTOFALLA I al XIII y BOLLAND VI</b><br>Provincia: CATAMARCA<br>Estado: Exploración Avanzada</div>`)[0];
+            popup_de18f6ef950a8d7682b1a31fd78ce8b0.setContent(html_1d1d19092dec433391f4ad819feda69d);
+        
+
+        marker_1520d3063f592dbbd4eb141691223ce7.bindPopup(popup_de18f6ef950a8d7682b1a31fd78ce8b0)
+        ;
+
+        
+    
+    
+            var marker_447fad1950a4fa2e47c6b356d0203c38 = L.marker(
+                [-24.88645, -67.77402],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_ab7f2f015ff05c9f0e45b5fc95f6a900 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_447fad1950a4fa2e47c6b356d0203c38.setIcon(icon_ab7f2f015ff05c9f0e45b5fc95f6a900);
+        
+    
+        var popup_9621098919fa2f9232f02cf87b319102 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af7791db5e9a1ead38a874504a381857 = $(`<div id="html_af7791db5e9a1ead38a874504a381857" style="width: 100.0%; height: 100.0%;"><b>SALAR DE ARIZARO (1)</b><br>Provincia: SALTA<br>Estado: Exploración Avanzada</div>`)[0];
+            popup_9621098919fa2f9232f02cf87b319102.setContent(html_af7791db5e9a1ead38a874504a381857);
+        
+
+        marker_447fad1950a4fa2e47c6b356d0203c38.bindPopup(popup_9621098919fa2f9232f02cf87b319102)
+        ;
+
+        
+    
+    
+            var marker_bb6ce435893952a674351ca98197f62a = L.marker(
+                [-24.77014, -67.70972],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_bb4097bb8e9b5da5f22d93d53b065e66 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bb6ce435893952a674351ca98197f62a.setIcon(icon_bb4097bb8e9b5da5f22d93d53b065e66);
+        
+    
+        var popup_7c2aa68c3dd30a7c5e4361f3cb07363f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25dd7532f462d580ef60aff4e0dd6073 = $(`<div id="html_25dd7532f462d580ef60aff4e0dd6073" style="width: 100.0%; height: 100.0%;"><b>SALAR DE ARIZARO (2)</b><br>Provincia: SALTA<br>Estado: Exploración Avanzada</div>`)[0];
+            popup_7c2aa68c3dd30a7c5e4361f3cb07363f.setContent(html_25dd7532f462d580ef60aff4e0dd6073);
+        
+
+        marker_bb6ce435893952a674351ca98197f62a.bindPopup(popup_7c2aa68c3dd30a7c5e4361f3cb07363f)
+        ;
+
+        
+    
+    
+            var marker_52b6a2c8e2f17a46bffad6868ded9ab7 = L.marker(
+                [-23.75738, -66.79067],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_f37c2b444bad4190fedc8f059e7cf1d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_52b6a2c8e2f17a46bffad6868ded9ab7.setIcon(icon_f37c2b444bad4190fedc8f059e7cf1d1);
+        
+    
+        var popup_82e6da67e8c4b88587099375e8f8dab0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9200789fa5c8a9dc1c151795fa1902cb = $(`<div id="html_9200789fa5c8a9dc1c151795fa1902cb" style="width: 100.0%; height: 100.0%;"><b>SALAR DE CAUCHARI</b><br>Provincia: JUJUY<br>Estado: Prefactibilidad</div>`)[0];
+            popup_82e6da67e8c4b88587099375e8f8dab0.setContent(html_9200789fa5c8a9dc1c151795fa1902cb);
+        
+
+        marker_52b6a2c8e2f17a46bffad6868ded9ab7.bindPopup(popup_82e6da67e8c4b88587099375e8f8dab0)
+        ;
+
+        
+    
+    
+            var marker_2eb9ae6d1cf5e942b1858d6ccbfbc5c7 = L.marker(
+                [-23.45, -66.7],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_015663d4f52d3127ecad3473be14bf2e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2eb9ae6d1cf5e942b1858d6ccbfbc5c7.setIcon(icon_015663d4f52d3127ecad3473be14bf2e);
+        
+    
+        var popup_bfffdd524826bebaaa8854362008b4a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cea6258552ce4eb77e1543de8d79b38d = $(`<div id="html_cea6258552ce4eb77e1543de8d79b38d" style="width: 100.0%; height: 100.0%;"><b>SALAR DE OLAROZ (Sales de Jujuy)</b><br>Provincia: JUJUY<br>Estado: Producción</div>`)[0];
+            popup_bfffdd524826bebaaa8854362008b4a2.setContent(html_cea6258552ce4eb77e1543de8d79b38d);
+        
+
+        marker_2eb9ae6d1cf5e942b1858d6ccbfbc5c7.bindPopup(popup_bfffdd524826bebaaa8854362008b4a2)
+        ;
+
+        
+    
+    
+            var marker_5d27895e47f473c01dbbb86d6fcd8a68 = L.marker(
+                [-24.0575, -67.12],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_c9d83dee5c4a31e26d7dca55fe4c6951 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_5d27895e47f473c01dbbb86d6fcd8a68.setIcon(icon_c9d83dee5c4a31e26d7dca55fe4c6951);
+        
+    
+        var popup_6455a79d133b7fc991ebdbaeb1c70666 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed87a4650cc13bab2787ff70ffd29389 = $(`<div id="html_ed87a4650cc13bab2787ff70ffd29389" style="width: 100.0%; height: 100.0%;"><b>SALAR DEL RINCÓN</b><br>Provincia: SALTA<br>Estado: Factibilidad</div>`)[0];
+            popup_6455a79d133b7fc991ebdbaeb1c70666.setContent(html_ed87a4650cc13bab2787ff70ffd29389);
+        
+
+        marker_5d27895e47f473c01dbbb86d6fcd8a68.bindPopup(popup_6455a79d133b7fc991ebdbaeb1c70666)
+        ;
+
+        
+    
+    
+            var marker_35b9b8f3c6b9efb15e7338ee6ec80801 = L.marker(
+                [-25.03672, -67.12411],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_124572af207107d65aa50feb911527ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_35b9b8f3c6b9efb15e7338ee6ec80801.setIcon(icon_124572af207107d65aa50feb911527ce);
+        
+    
+        var popup_05fdc3055e62997ce182f42fbc0e3624 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b9db827239a01d11f0dee1f90124909 = $(`<div id="html_7b9db827239a01d11f0dee1f90124909" style="width: 100.0%; height: 100.0%;"><b>SALAR TOLILLAR</b><br>Provincia: SALTA<br>Estado: Exploración Avanzada</div>`)[0];
+            popup_05fdc3055e62997ce182f42fbc0e3624.setContent(html_7b9db827239a01d11f0dee1f90124909);
+        
+
+        marker_35b9b8f3c6b9efb15e7338ee6ec80801.bindPopup(popup_05fdc3055e62997ce182f42fbc0e3624)
+        ;
+
+        
+    
+    
+            var marker_2844e770f87c88480779e98b7567bfaf = L.marker(
+                [-23.72856, -65.94639],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_45aadc99e67da057953170297b68024c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2844e770f87c88480779e98b7567bfaf.setIcon(icon_45aadc99e67da057953170297b68024c);
+        
+    
+        var popup_a735584e6f478268d349618461760a80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a1fb7e91e5e6c1db77a85da57e7ce88 = $(`<div id="html_4a1fb7e91e5e6c1db77a85da57e7ce88" style="width: 100.0%; height: 100.0%;"><b>SALINAS GRANDES</b><br>Provincia: JUJUY<br>Estado: Exploración Avanzada</div>`)[0];
+            popup_a735584e6f478268d349618461760a80.setContent(html_4a1fb7e91e5e6c1db77a85da57e7ce88);
+        
+
+        marker_2844e770f87c88480779e98b7567bfaf.bindPopup(popup_a735584e6f478268d349618461760a80)
+        ;
+
+        
+    
+    
+            var marker_ca9b151e39474757df58e8d6c73392f5 = L.marker(
+                [-26.05716, -67.93492],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_a18c5d7d33f9fc7fde7bd7eb91e9a9df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ca9b151e39474757df58e8d6c73392f5.setIcon(icon_a18c5d7d33f9fc7fde7bd7eb91e9a9df);
+        
+    
+        var popup_6572ab78d652c8c78c91648c46456d66 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9944d7d022aa7870d164fb9fa37e51b = $(`<div id="html_d9944d7d022aa7870d164fb9fa37e51b" style="width: 100.0%; height: 100.0%;"><b>SINCERA</b><br>Provincia: CATAMARCA<br>Estado: Exploración Avanzada</div>`)[0];
+            popup_6572ab78d652c8c78c91648c46456d66.setContent(html_d9944d7d022aa7870d164fb9fa37e51b);
+        
+
+        marker_ca9b151e39474757df58e8d6c73392f5.bindPopup(popup_6572ab78d652c8c78c91648c46456d66)
+        ;
+
+        
+    
+    
+            var marker_761be5d277d2f6092be2d8fa93f9745f = L.marker(
+                [-27.36413, -68.66513],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_b3e868ec48415ba0ae02178c09ca7f93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_761be5d277d2f6092be2d8fa93f9745f.setIcon(icon_b3e868ec48415ba0ae02178c09ca7f93);
+        
+    
+        var popup_2d3bcb5c74bb18e3bfb55976a1a4ee11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc7fe305774be313a50b3808c77f4ecd = $(`<div id="html_fc7fe305774be313a50b3808c77f4ecd" style="width: 100.0%; height: 100.0%;"><b>TRES QUEBRADAS</b><br>Provincia: CATAMARCA<br>Estado: Construcción</div>`)[0];
+            popup_2d3bcb5c74bb18e3bfb55976a1a4ee11.setContent(html_fc7fe305774be313a50b3808c77f4ecd);
+        
+
+        marker_761be5d277d2f6092be2d8fa93f9745f.bindPopup(popup_2d3bcb5c74bb18e3bfb55976a1a4ee11)
+        ;
+
+        
+    
+    
+            var marker_54f060024f9ba42978775357e264388d = L.marker(
+                [-25.4394, -66.9778],
+                {}
+            ).addTo(marker_cluster_b9296bff51313f9937917e539bf37fd7);
+        
+    
+            var icon_f9bf0a82e3e2a8d6280f3e45089be238 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_54f060024f9ba42978775357e264388d.setIcon(icon_f9bf0a82e3e2a8d6280f3e45089be238);
+        
+    
+        var popup_96f6de8b56b8abbea79c48190c12e715 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98f3149ca2b8dc35462d68b3003342fd = $(`<div id="html_98f3149ca2b8dc35462d68b3003342fd" style="width: 100.0%; height: 100.0%;"><b>VIRGEN DEL VALLE LITIO</b><br>Provincia: CATAMARCA<br>Estado: Exploración Avanzada</div>`)[0];
+            popup_96f6de8b56b8abbea79c48190c12e715.setContent(html_98f3149ca2b8dc35462d68b3003342fd);
+        
+
+        marker_54f060024f9ba42978775357e264388d.bindPopup(popup_96f6de8b56b8abbea79c48190c12e715)
+        ;
+
+        
+    
+</script>
+</html>
